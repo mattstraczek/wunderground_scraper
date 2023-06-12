@@ -35,7 +35,7 @@ def weather_scraper(start_idx, end_idx, out_file):
     stations. leftover_stations.py then finds leftover "general" stations for weather_scraper_general(1).py to scrape.
     Written to be parallelized.
     
-    start_idx, end_idx: The respective indices of stations in leftover_stations.txt to scrape.
+    start_idx, end_idx: The respective indices of stations in all_stations.txt to scrape.
     out_file: The output file to write scraped station info to.
     '''
 
